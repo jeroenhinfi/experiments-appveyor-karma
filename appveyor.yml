@@ -9,6 +9,7 @@ install:
   - sh: ls -l /usr/bin
   - sh: pwd
   - sh: ls -l
+  - sh: export CHROME_BIN=/usr/bin/google-chrome
   - sh: env | sort
   - npm ci
   - node --version
